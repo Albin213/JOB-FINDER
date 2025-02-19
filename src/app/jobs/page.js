@@ -57,7 +57,7 @@ const JobListingPage = () => {
           <div className="space-y-6">
             {filteredJobs.map((job) => (
               <Link key={job.id} href={`/jobs/${job.id}`}>
-                <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300 cursor-pointer my-2 border-gray-100 border-[2px]">
+                <div className="bg-white p-6 rounded-lg hover:shadow-md transition-shadow duration-300 cursor-pointer my-2 border-gray-100 border-[2px] capitalize">
                   <h2 className="text-xl font-semibold">{job.title}</h2>
                   <p className="text-gray-600 text-sm">{job.company}</p>
                   <p className="text-gray-500 pb-2 text-sm">{job.location}</p>

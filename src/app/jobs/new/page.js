@@ -32,9 +32,12 @@ const NewJobPage = () => {
 
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white min-h-screen flex flex-col items-center pt-20 px-2 sm:px-20">
-        <div className="bg-gray-50 p-6 rounded-lg  w-full max-w-lg border-gray-100 border-[2px]">
-
+        <div className="w-full ps-2">
         <h2 className="text-2xl font-semibold mb-4">Add New Job</h2>
+        </div>
+
+        <div className="bg-[#5755552a] p-6 rounded-lg   w-full max-w-lg border-gray-100 border-[2px]">
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <input type="text" placeholder="Job Title"
              className="w-full p-2 border rounded outline-none placeholder:text-sm"
